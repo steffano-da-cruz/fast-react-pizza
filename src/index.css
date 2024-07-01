@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-weight: 400;
+  color: #222;
+  background-color: #f7f2e9;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  border-bottom: 1.6rem solid #edc84b;
+}
+
+.sub-container {
+  width: 90rem;
+  margin: 0 auto;
+}
+
+/* GENERAL */
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+/* REFACTORED */
+
+.footer-button,
+.footer-description {
+  font-size: 1.4rem;
+}
+
+/* HEADING SECTION */
+
+.heading-container {
+  text-align: center;
+  padding: 3rem 0 4rem 0;
+}
+
+.heading-title {
+  color: #edc84b;
+  font-size: 5rem;
+  font-weight: 400;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase;
+}
+
+/* MAIN SECTION */
+
+.main-container {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.main-title {
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+}
+
+.main-description {
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  padding: 0 10rem;
+}
+
+.main-pizza-list {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(3, 1fr);
+  column-gap: 4rem;
+  row-gap: 4rem;
+}
+
+/* PIZZA CHILD COMPONENT */
+
+.pizza-item {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  list-style: none;
+}
+
+.pizza-photo {
+  height: 12rem;
+}
+
+.pizza-info {
+  text-align: start;
+}
+
+.pizza-name {
+  font-size: 2.1rem;
+  font-weight: 400;
+  margin-bottom: 0.2rem;
+}
+
+.pizza-description {
+  font-size: 1.4rem;
+  margin-bottom: 1.6rem;
+}
+
+.pizza-price {
+  font-size: 1.6rem;
+}
+
+/* FOOTER SECTION */
+
+.footer-container {
+  text-align: center;
+}
+
+.footer-description {
+  margin-bottom: 2rem;
+}
+
+.footer-button {
+  font-weight: 500;
+  color: inherit;
+  background-color: #edc84b;
+  padding: 1.2rem 3rem;
+  margin-bottom: 3rem;
+}
