@@ -1,5 +1,5 @@
 # Pizza Menu
-![Pizza Menu](/assets/images/readme-monthly-bills.png)
+![Pizza Menu](/public/pizza-menu-readme.png)
 
 ## 💻 About the project
 A webpage made with React.
