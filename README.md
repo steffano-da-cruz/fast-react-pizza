@@ -1,5 +1,5 @@
-# Pizza Menu
-![Pizza Menu](/public/pizza-menu-readme.png)
+# Fast React Pizza
+![Fast React Pizza](/public/pizza-menu-readme.png)
 
 ## 💻 About the project
 A webpage made with React.
@@ -8,6 +8,7 @@ A webpage made with React.
 - HTML5
 - CSS3
 - JavaScript
+- React
   
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
